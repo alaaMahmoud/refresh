@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4DB43A119680299001826C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43A019680299001826C4 /* Foundation.framework */; };
+		F4DB43A319680299001826C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43A219680299001826C4 /* CoreGraphics.framework */; };
+		F4DB43A519680299001826C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43A419680299001826C4 /* UIKit.framework */; };
+		F4DB43AB19680299001826C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4DB43A919680299001826C4 /* InfoPlist.strings */; };
+		F4DB43AD19680299001826C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB43AC19680299001826C4 /* main.m */; };
+		F4DB43B119680299001826C4 /* KivaLoanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB43B019680299001826C4 /* KivaLoanAppDelegate.m */; };
+		F4DB43B419680299001826C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DB43B219680299001826C4 /* Main.storyboard */; };
+		F4DB43B919680299001826C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DB43B819680299001826C4 /* Images.xcassets */; };
+		F4DB43C019680299001826C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43BF19680299001826C4 /* XCTest.framework */; };
+		F4DB43C119680299001826C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43A019680299001826C4 /* Foundation.framework */; };
+		F4DB43C219680299001826C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43A419680299001826C4 /* UIKit.framework */; };
+		F4DB43CA19680299001826C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4DB43C819680299001826C4 /* InfoPlist.strings */; };
+		F4DB43CC19680299001826C4 /* KivaLoanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB43CB19680299001826C4 /* KivaLoanTests.m */; };
+		F4DB43D719680790001826C4 /* KivaLoanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB43D619680790001826C4 /* KivaLoanTableViewController.m */; };
+		F4DB43DA196807C4001826C4 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB43D9196807C4001826C4 /* CustomTableCell.m */; };
+		F4DB43E0196965B5001826C4 /* Loan.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB43DF196965B5001826C4 /* Loan.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4DB43C319680299001826C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DB439519680299001826C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DB439C19680299001826C4;
+			remoteInfo = KivaLoan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4DB439D19680299001826C4 /* KivaLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KivaLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DB43A019680299001826C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4DB43A219680299001826C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4DB43A419680299001826C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4DB43A819680299001826C4 /* KivaLoan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KivaLoan-Info.plist"; sourceTree = "<group>"; };
+		F4DB43AA19680299001826C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4DB43AC19680299001826C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4DB43AE19680299001826C4 /* KivaLoan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KivaLoan-Prefix.pch"; sourceTree = "<group>"; };
+		F4DB43AF19680299001826C4 /* KivaLoanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KivaLoanAppDelegate.h; sourceTree = "<group>"; };
+		F4DB43B019680299001826C4 /* KivaLoanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KivaLoanAppDelegate.m; sourceTree = "<group>"; };
+		F4DB43B319680299001826C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4DB43B819680299001826C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4DB43BE19680299001826C4 /* KivaLoanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KivaLoanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DB43BF19680299001826C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4DB43C719680299001826C4 /* KivaLoanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KivaLoanTests-Info.plist"; sourceTree = "<group>"; };
+		F4DB43C919680299001826C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4DB43CB19680299001826C4 /* KivaLoanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KivaLoanTests.m; sourceTree = "<group>"; };
+		F4DB43D519680790001826C4 /* KivaLoanTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KivaLoanTableViewController.h; sourceTree = "<group>"; };
+		F4DB43D619680790001826C4 /* KivaLoanTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KivaLoanTableViewController.m; sourceTree = "<group>"; };
+		F4DB43D8196807C4001826C4 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		F4DB43D9196807C4001826C4 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		F4DB43DE196965B5001826C4 /* Loan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loan.h; sourceTree = "<group>"; };
+		F4DB43DF196965B5001826C4 /* Loan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loan.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DB439A19680299001826C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB43A319680299001826C4 /* CoreGraphics.framework in Frameworks */,
+				F4DB43A519680299001826C4 /* UIKit.framework in Frameworks */,
+				F4DB43A119680299001826C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DB43BB19680299001826C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB43C019680299001826C4 /* XCTest.framework in Frameworks */,
+				F4DB43C219680299001826C4 /* UIKit.framework in Frameworks */,
+				F4DB43C119680299001826C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4DB439419680299001826C4 = {
+			isa = PBXGroup;
+			children = (
+				F4DB43A619680299001826C4 /* KivaLoan */,
+				F4DB43C519680299001826C4 /* KivaLoanTests */,
+				F4DB439F19680299001826C4 /* Frameworks */,
+				F4DB439E19680299001826C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DB439E19680299001826C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB439D19680299001826C4 /* KivaLoan.app */,
+				F4DB43BE19680299001826C4 /* KivaLoanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DB439F19680299001826C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB43A019680299001826C4 /* Foundation.framework */,
+				F4DB43A219680299001826C4 /* CoreGraphics.framework */,
+				F4DB43A419680299001826C4 /* UIKit.framework */,
+				F4DB43BF19680299001826C4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4DB43A619680299001826C4 /* KivaLoan */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB43AF19680299001826C4 /* KivaLoanAppDelegate.h */,
+				F4DB43B019680299001826C4 /* KivaLoanAppDelegate.m */,
+				F4DB43B219680299001826C4 /* Main.storyboard */,
+				F4DB43B819680299001826C4 /* Images.xcassets */,
+				F4DB43A719680299001826C4 /* Supporting Files */,
+				F4DB43D519680790001826C4 /* KivaLoanTableViewController.h */,
+				F4DB43D619680790001826C4 /* KivaLoanTableViewController.m */,
+				F4DB43D8196807C4001826C4 /* CustomTableCell.h */,
+				F4DB43D9196807C4001826C4 /* CustomTableCell.m */,
+				F4DB43DE196965B5001826C4 /* Loan.h */,
+				F4DB43DF196965B5001826C4 /* Loan.m */,
+			);
+			path = KivaLoan;
+			sourceTree = "<group>";
+		};
+		F4DB43A719680299001826C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB43A819680299001826C4 /* KivaLoan-Info.plist */,
+				F4DB43A919680299001826C4 /* InfoPlist.strings */,
+				F4DB43AC19680299001826C4 /* main.m */,
+				F4DB43AE19680299001826C4 /* KivaLoan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4DB43C519680299001826C4 /* KivaLoanTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB43CB19680299001826C4 /* KivaLoanTests.m */,
+				F4DB43C619680299001826C4 /* Supporting Files */,
+			);
+			path = KivaLoanTests;
+			sourceTree = "<group>";
+		};
+		F4DB43C619680299001826C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB43C719680299001826C4 /* KivaLoanTests-Info.plist */,
+				F4DB43C819680299001826C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DB439C19680299001826C4 /* KivaLoan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DB43CF19680299001826C4 /* Build configuration list for PBXNativeTarget "KivaLoan" */;
+			buildPhases = (
+				F4DB439919680299001826C4 /* Sources */,
+				F4DB439A19680299001826C4 /* Frameworks */,
+				F4DB439B19680299001826C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KivaLoan;
+			productName = KivaLoan;
+			productReference = F4DB439D19680299001826C4 /* KivaLoan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4DB43BD19680299001826C4 /* KivaLoanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DB43D219680299001826C4 /* Build configuration list for PBXNativeTarget "KivaLoanTests" */;
+			buildPhases = (
+				F4DB43BA19680299001826C4 /* Sources */,
+				F4DB43BB19680299001826C4 /* Frameworks */,
+				F4DB43BC19680299001826C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DB43C419680299001826C4 /* PBXTargetDependency */,
+			);
+			name = KivaLoanTests;
+			productName = KivaLoanTests;
+			productReference = F4DB43BE19680299001826C4 /* KivaLoanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DB439519680299001826C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KivaLoan;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Appcoda;
+				TargetAttributes = {
+					F4DB43BD19680299001826C4 = {
+						TestTargetID = F4DB439C19680299001826C4;
+					};
+				};
+			};
+			buildConfigurationList = F4DB439819680299001826C4 /* Build configuration list for PBXProject "KivaLoan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4DB439419680299001826C4;
+			productRefGroup = F4DB439E19680299001826C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DB439C19680299001826C4 /* KivaLoan */,
+				F4DB43BD19680299001826C4 /* KivaLoanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DB439B19680299001826C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB43B919680299001826C4 /* Images.xcassets in Resources */,
+				F4DB43AB19680299001826C4 /* InfoPlist.strings in Resources */,
+				F4DB43B419680299001826C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DB43BC19680299001826C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB43CA19680299001826C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DB439919680299001826C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB43E0196965B5001826C4 /* Loan.m in Sources */,
+				F4DB43D719680790001826C4 /* KivaLoanTableViewController.m in Sources */,
+				F4DB43AD19680299001826C4 /* main.m in Sources */,
+				F4DB43B119680299001826C4 /* KivaLoanAppDelegate.m in Sources */,
+				F4DB43DA196807C4001826C4 /* CustomTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DB43BA19680299001826C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB43CC19680299001826C4 /* KivaLoanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4DB43C419680299001826C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DB439C19680299001826C4 /* KivaLoan */;
+			targetProxy = F4DB43C319680299001826C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4DB43A919680299001826C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DB43AA19680299001826C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4DB43B219680299001826C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DB43B319680299001826C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4DB43C819680299001826C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DB43C919680299001826C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4DB43CD19680299001826C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4DB43CE19680299001826C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4DB43D019680299001826C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaLoan/KivaLoan-Prefix.pch";
+				INFOPLIST_FILE = "KivaLoan/KivaLoan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4DB43D119680299001826C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaLoan/KivaLoan-Prefix.pch";
+				INFOPLIST_FILE = "KivaLoan/KivaLoan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4DB43D319680299001826C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KivaLoan.app/KivaLoan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaLoan/KivaLoan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KivaLoanTests/KivaLoanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F4DB43D419680299001826C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KivaLoan.app/KivaLoan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KivaLoan/KivaLoan-Prefix.pch";
+				INFOPLIST_FILE = "KivaLoanTests/KivaLoanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DB439819680299001826C4 /* Build configuration list for PBXProject "KivaLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DB43CD19680299001826C4 /* Debug */,
+				F4DB43CE19680299001826C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DB43CF19680299001826C4 /* Build configuration list for PBXNativeTarget "KivaLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DB43D019680299001826C4 /* Debug */,
+				F4DB43D119680299001826C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DB43D219680299001826C4 /* Build configuration list for PBXNativeTarget "KivaLoanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DB43D319680299001826C4 /* Debug */,
+				F4DB43D419680299001826C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DB439519680299001826C4 /* Project object */;
+}
